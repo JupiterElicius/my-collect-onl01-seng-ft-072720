@@ -3,7 +3,7 @@ def my_collect(array)
   new_array = [] #store the modified collection
   while i < array.length #iterating every value in collection
  (array[i])
-    new_array << yield
+    new_array << yield (array[i])
 
 
 
